@@ -1,5 +1,10 @@
 body {
   background: url("../images/ocean.jpg");
   background-repeat: repeat;
+}
 
+.container {
+  font-style: "Roboto", sans;
+  font-size: 26px;
+  color: #FFFFFF;
 }
