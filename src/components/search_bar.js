@@ -14,7 +14,7 @@ class SearchBar extends Component {
     return (
       <div>
         <input
-          value={this.state.term}
+          value={this.state.term}  // starting value eg login credentials from cookies
           onChange={(event) => this.setState({term: event.target.value})} />
         Value is: {this.state.term}
       </div>
