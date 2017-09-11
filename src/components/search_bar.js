@@ -1,24 +1,24 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
 
 
 class SearchBar extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      term: '',
-      worm: 'No worm here!'
-    };
+    this.state = {term: '' };
   }
   render() {
     return (
-      <div>
+      <div className="search-bar">
         <input
-          value={this.state.term}  // starting value eg login credentials from cookies
-          onChange={(event) => this.setState({term: event.target.value})} />
-        Value is: {this.state.term}
+          value={this.state.term}
+          onChange={event => this.onInputChange(event.target.value)} />
       </div>
     );
+  }
+  onInputChange(term) {
+    this.setState({term});
+    this.props.onSearchTermChange(term);
   }
 }
 

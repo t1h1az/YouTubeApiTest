@@ -1,0 +1,25 @@
+var accountData = [{
+  "accountName": "Klobot1",
+  "userName": "Klobot1",
+  "userAddress": "algkrjealjealfk"
+},
+{
+  "accountName": "Klobot2",
+  "userName": "Klobot2",
+  "userAddress": "algkrjealjealfk"
+},
+{
+  "accountName": "Klobot3",
+  "userName": "Klobot3",
+  "userAddress": "algkrjealjealfk"
+},
+{
+  "accountName": "Klobot4",
+  "userName": "Klobot4",
+  "userAddress": "algkrjealjealfk"
+},
+{
+  "accountName": "Klobot5",
+  "userName": "Klobot5",
+  "userAddress": "algkrjealjealfk"
+}];
